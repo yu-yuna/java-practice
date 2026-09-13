@@ -37,6 +37,7 @@ public class Main4 {
         }
         System.err.println("max: " + max);
         System.err.println("min: " + min);
+        sc.close();
     }
     
 }
