@@ -1,14 +1,19 @@
 public class Main3 {
     public static void main(String[] args){
-        System.out.println("Практика 1");
-        int[] num = {1, 2, 3, 4, 5};
+        int[] num = {1, 7, 5, 4, 5};
         int sum = 0;
         for(int i = 0 ; i < num.length; i++){
             sum+= num[i];
         }
-        System.out.println(sum);
-        System.out.println((double) sum/(num.length));
+        System.out.println("Сумма: "+ sum);
+        System.out.println("Ср. арифм.: " + (double) sum/(num.length));
 
+        System.out.println("Массив: ");
+        for(int i = 0 ; i < num.length; i++){
+            System.out.print(num[i] + " ");
+        }
+        System.out.println('\n');
     }
+
     
 }

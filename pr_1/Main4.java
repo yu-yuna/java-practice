@@ -4,12 +4,12 @@ public class Main4 {
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Скока?: ");
+        System.out.print("Сколько?: ");
         int n = sc.nextInt();
         int[] num = new int[n];
         int i = 0;
         do{
-            System.out.print("Введи: ");
+            System.out.print("Введи число: ");
             num[i] = sc.nextInt();
             i++;
         }while (i!= n);
@@ -20,7 +20,7 @@ public class Main4 {
             sum += num[i];
             i++;
         }
-        System.out.println(sum);
+        System.out.println("Сумма: " + sum);
 
         int max = num[0];
         int min = num[0];
@@ -35,8 +35,8 @@ public class Main4 {
             }
             i++;
         }
-        System.err.println("max: " + max);
-        System.err.println("min: " + min);
+        System.out.println("max: " + max);
+        System.out.println("min: " + min);
         sc.close();
     }
     
