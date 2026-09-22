@@ -1,3 +1,4 @@
+package pr_2.z6;
 public class Circle6 {
     private double radius;
     private String color;

@@ -1,4 +1,4 @@
-
+package pr_2.z1;
 public class Author {
     private String name;
     private String email;

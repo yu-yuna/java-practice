@@ -1,3 +1,4 @@
+package pr_2.z4;
 
 public class Computer {
     private String name;

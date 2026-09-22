@@ -8,5 +8,6 @@ public class HowMany {
 
         String[] words = text.split(" ");
         System.out.println(words.length);
+        sc.close();
     }
 }

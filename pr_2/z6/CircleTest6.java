@@ -1,3 +1,4 @@
+package pr_2.z6;
 public class CircleTest6 {
     public static void main(String[] args) {
 

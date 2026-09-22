@@ -1,4 +1,4 @@
-
+package pr_2.z5;
 public class DogHouse {
     public static void main(String[] args) {
 

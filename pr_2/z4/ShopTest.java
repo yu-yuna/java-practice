@@ -1,5 +1,5 @@
+package pr_2.z4;
 import java.util.Scanner;
-
 public class ShopTest {
     public static void main(String[] args) {
 
@@ -44,6 +44,7 @@ public class ShopTest {
 
         System.out.print("\nУдалаем номер?: ");
         int index = sc.nextInt();
+        index -=1;
         shop.remove(index);
 
         System.out.println("\nПосле удаления:");

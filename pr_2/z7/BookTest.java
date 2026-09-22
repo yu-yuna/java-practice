@@ -1,3 +1,4 @@
+package pr_2.z7;
 public class BookTest {
     public static void main(String[] args) {
 

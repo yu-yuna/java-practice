@@ -1,3 +1,4 @@
+package pr_2.z7;
 public class Book {
     private String name;
     private String author;

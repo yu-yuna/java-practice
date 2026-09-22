@@ -1,4 +1,4 @@
-
+package pr_2.z3;
 
 public class Point {
     private double x;

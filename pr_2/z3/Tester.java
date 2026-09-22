@@ -1,4 +1,4 @@
-
+package pr_2.z3;
 
 public class Tester {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-
+package pr_2.z4;
 public class Shop {
     private Computer[] comps;
     private int c = 0;
@@ -37,7 +37,7 @@ public class Shop {
 
     public void showComputers() {
         for (int i = 0; i < c; i++) {
-            System.out.println(comps[i]);
+            System.out.println((i+1) + ": " + comps[i]);
         }
     }
 }

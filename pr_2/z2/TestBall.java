@@ -1,3 +1,4 @@
+package pr_2.z2;
 public class TestBall {
     public static void main(String[] args){
         Ball ball = new Ball(5.0, 10.0);

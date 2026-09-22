@@ -1,4 +1,4 @@
-
+package pr_2.z5;
 public class Dog {
     private String name;
     private int age;
