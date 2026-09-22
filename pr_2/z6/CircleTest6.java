@@ -24,5 +24,7 @@ public class CircleTest6 {
         System.out.println(circle1);
         System.out.println("Площадь: " + circle1.getArea());
         System.out.println("Длина окружности: " + circle1.getCircumference());
+
+        System.out.println("\nCравнение: " + circle1.compare(circle2));
     }
 }

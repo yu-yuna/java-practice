@@ -1,9 +1,11 @@
 package pr_2.z7;
 public class BookShelf {
     private Book[] books;
+    private int count;
 
     public BookShelf(Book[] books) {
         this.books = books;
+        this.count = books.length;
     }
 
     public Book findOldestBook() {
@@ -31,8 +33,8 @@ public class BookShelf {
     }
 
     public void sortByYear() {
-        for (int i = 0; i < books.length - 1; i++) {
-            for (int j = 0; j < books.length - 1 - i; j++) {
+        for (int i = 0; i < count - 1; i++) {
+            for (int j = 0; j < count - 1 - i; j++) {
 
                 if (books[j].getYear() > books[j + 1].getYear()) {
                     Book temp = books[j];
