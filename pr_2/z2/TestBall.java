@@ -2,7 +2,7 @@ package pr_2.z2;
 public class TestBall {
     public static void main(String[] args){
         Ball ball = new Ball(5.0, 10.0);
-        Ball ball2 = new Ball();
+        //Ball ball2 = new Ball();
 
         System.out.println("Начальная позиция:");
         System.out.print("x: " + ball.getX()+ " ");

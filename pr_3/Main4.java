@@ -27,6 +27,7 @@ public class Main4 {
 
         int e = 0;
 
+
         for (int number : num) {
             if (number % 2 == 0) {
                 e++;
@@ -35,7 +36,6 @@ public class Main4 {
 
         int[] num2 = new int[e];
         int j = 0;
-
         for (int number : num) {
             if (number % 2 == 0) {
                 num2[j] = number;
