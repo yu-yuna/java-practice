@@ -8,7 +8,7 @@ public class ComputerTest {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Сколько компьютеров добавить? ");
+        System.out.print("Сколько компьютеров добавить?: ");
         int n = sc.nextInt();
         sc.nextLine();
 
@@ -28,7 +28,7 @@ public class ComputerTest {
         System.out.println("\nКомпьютеры в магазине:");
         shop.showComputers();
 
-        System.out.print("\nПоиск компьютера: ");
+        System.out.print("\nпоиск?: ");
         String searchName = sc.nextLine();
 
         Computer found = shop.search(searchName);

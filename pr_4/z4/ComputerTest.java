@@ -71,7 +71,7 @@ public class ComputerTest {
         System.out.println("\nКомпьютеры в магазине:");
         shop.showComputers();
 
-        System.out.print("\nПоиск компьютера: ");
+        System.out.print("\nпоиск?: ");
         String searchName = sc.nextLine();
 
         Computer found = shop.search(searchName);
