@@ -7,10 +7,8 @@ public class TestSeasons {
         Seasons favoriteSeason = Seasons.SUMMER;
 
         System.out.println("Любимое время года: " + favoriteSeason);
-        System.out.println("Средняя температура: "
-                + favoriteSeason.getAverageTemperature());
-        System.out.println("Описание: "
-                + favoriteSeason.getDescription());
+        System.out.println("Средняя температура: " + favoriteSeason.getAverageTemperature());
+        System.out.println("Описание: " + favoriteSeason.getDescription());
 
                 
         System.out.println();

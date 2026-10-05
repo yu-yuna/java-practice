@@ -34,14 +34,11 @@ public class ComputerInput implements Input {
         System.out.print("Разрешение монитора: ");
         String resolution = sc.nextLine();
 
-        Processor processor =
-                new Processor(processorName, frequency);
+        Processor processor = new Processor(processorName, frequency);
 
-        Memory memory =
-                new Memory(memorySize);
+        Memory memory = new Memory(memorySize);
 
-        Monitor monitor =
-                new Monitor(diagonal, resolution);
+        Monitor monitor = new Monitor(diagonal, resolution);
 
         return new Computer(
                 name,
