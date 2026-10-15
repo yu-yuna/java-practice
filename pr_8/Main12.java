@@ -7,11 +7,11 @@ public class Main12 {
     void printOdd() {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Введите число: ");
+        System.out.print("Введите: ");
         int n = sc.nextInt();
 
         if (n == 0) {
-            System.out.println("Нечётные числа:");
+            System.out.println("Нечётные:");
             return;
         }
 

@@ -15,7 +15,7 @@ public class Main5 {
     void main() {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Введите число: ");
+        System.out.print("Введите: ");
         int n = sc.nextInt();
 
         System.out.println("Сумма цифр: " + sumDigits(n));

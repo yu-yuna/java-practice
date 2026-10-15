@@ -10,7 +10,7 @@ public class Main16 {
     void findMax() {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Введите число: ");
+        System.out.print("Введите: ");
         int n = sc.nextInt();
 
         if (n == 0) {
