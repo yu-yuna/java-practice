@@ -36,9 +36,7 @@ public class Main3 {
         for (String address : addresses2) {
 
             Address a = new Address();
-
             a.parseByTokenizer(address);
-
             System.out.println("\n" + a);
         }
     }

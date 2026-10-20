@@ -9,20 +9,20 @@ public class Student {
     public String group;
     public double GPA;
 
-    // Для задания №1
+    // Для задания 1
     Student(int iDNumber, String name) {
         this.iDNumber = iDNumber;
         this.name = name;
     }
 
-    // Для задания №2 №9 и №2 №10
+    // Для задания 2.9
     public Student(int iDNumber, String name, double GPA) {
         this.iDNumber = iDNumber;
         this.name = name;
         this.GPA = GPA;
     }
 
-    // Для практической №10
+    // Для практической 10
     public Student(int iDNumber, String name, String surname,
                    String speciality, int course, String group, double GPA) {
         this.iDNumber = iDNumber;

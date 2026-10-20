@@ -25,6 +25,7 @@ public class Main12 {
     }
 
     void main() {
+        
         System.out.println("Введите числа(0 = коненц):D");
         printOdd();
     }

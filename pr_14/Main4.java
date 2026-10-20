@@ -12,10 +12,10 @@ public class Main4 {
         System.out.print("Введите строку: ");
         String str = sc.nextLine();
 
-        String regex = "\\d(?!\\s*\\+)";
+        String regex = "\\d\\s*\\+";
 
         boolean result =
-                !Pattern.compile(regex)
+                Pattern.compile(regex)
                         .matcher(str)
                         .find();
 
