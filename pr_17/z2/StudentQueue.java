@@ -64,6 +64,7 @@ public class StudentQueue {
         tail = null;
     }
 
+
     public boolean isEmpty() {
         return head == null;
     }

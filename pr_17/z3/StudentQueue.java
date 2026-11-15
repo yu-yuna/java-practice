@@ -33,6 +33,9 @@ public class StudentQueue {
         head.prev = student;
 
         tail = student;
+
+        head.next = tail;
+        tail.prev = head;
     }
 
 
