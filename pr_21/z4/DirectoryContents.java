@@ -2,6 +2,7 @@ package pr_21.z4;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class DirectoryContents {
@@ -16,6 +17,8 @@ public class DirectoryContents {
             return contents;
         }
 
+        Arrays.sort(files);
+        
         for (File file : files) {
             contents.add(file.getName());
         }

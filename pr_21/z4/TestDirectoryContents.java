@@ -11,7 +11,7 @@ public class TestDirectoryContents {
         List<String> contents =
                 DirectoryContents.getContents(path);
 
-        System.out.println("Первые 5 элементов каталога:");
+        System.out.println("Первые 5 элементов:");
 
         DirectoryContents.printFirstFive(contents);
     }
